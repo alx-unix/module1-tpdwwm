@@ -19,17 +19,20 @@
             <div class="formulaire">
                 <form action="">
                     <label for="fname">First name:</label>
-                    <input type="text" id="fname" name="fname">
+                    <input type="text" id="fname" name="fname" placeholder="John">
                     <label for="lname">Last name:</label>
-                    <input type="text" id="lname" name="fname">
+                    <input type="text" id="lname" name="fname" placeholder="Doe">
                     <label for="email">Email:</label>    
                     <input type="text" id="email" placeholder="votre@email">
+                    <label for="department">Choose department:</label>
                     <select name="" id="department">
+                        <option value="Choisir" Checked>Choisir</option>
                         <option value="informatique">Informatique</option>
                         <option value="commercial">Commercial</option>
                     </select><br>
-                    <textarea name="" id="commentaire" placeholder="votre commentaire"></textarea><br>
-                    <button>Envoyer le message</button>
+                    <label for="comaintaire"> Votre commentaire:</label>
+                    <textarea name="" id="commentaire" placeholder="Votre commentaire"></textarea><br>
+                    <button>Envoyer</button>
                 </form> 
             </div>
         </main>

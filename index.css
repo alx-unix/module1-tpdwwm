@@ -50,6 +50,9 @@ form{
     display: flex;
     flex-direction: column;
     gap:0.5rem;
+    outline: 3px solid #444;
+    border-radius: 5px;
+    padding: 1rem;
 }
 
 textarea{
@@ -60,13 +63,14 @@ textarea{
 input {
     width:35%;
     border-radius: 1rem;
-    padding: 0.35rem;
+    padding: 0.55rem 0.35rem;
 }
 
 select{
     width: 25%;
     border-radius: 1rem;
-    padding: .35rem;
+    padding: 0.55rem 0.35rem;
+    background-color: blanchedalmond;
 }
 button{
     width:15%;
