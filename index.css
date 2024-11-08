@@ -45,3 +45,33 @@ header ul{
 .gallerie article h2{
     flex:1;
 }
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+}
+
+textarea{
+    height: 10rem;
+    width:70%;
+    border-radius:1rem ;
+}
+input {
+    width:35%;
+    border-radius: 1rem;
+    padding: 0.35rem;
+}
+
+select{
+    width: 25%;
+    border-radius: 1rem;
+    padding: .35rem;
+}
+button{
+    width:15%;
+    border-radius: 1rem;
+    padding: .35rem;
+    background-color: #333;
+    color: aliceblue;
+}
