@@ -16,14 +16,21 @@ a{
 }
 
 .container {
-    width:700px;
+    width:900px;
     margin: 0 auto;
+    
+}
+
+header{
+    border: 3px solid #444;
+    padding: 2rem;
 }
 
 
 header ul{
     display: flex;
     justify-content: flex-end;
+    
 }
 
 .gallerie{
@@ -31,6 +38,8 @@ header ul{
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 20px 0;
+    outline: 3px solid #444;
+    padding: 2rem;
 }
 
 .gallerie article{
@@ -78,4 +87,8 @@ button{
     padding: .35rem;
     background-color: #333;
     color: aliceblue;
+}
+
+footer{
+    margin-bottom: 3rem;
 }
