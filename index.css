@@ -36,7 +36,12 @@ header ul{
 .gallerie article{
     width: 32%;
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
 }
 .gallerie article img{
     width: 100%;
+}
+.gallerie article h2{
+    flex:1;
 }
