@@ -8,6 +8,11 @@ h1, p, figure, ul, li{
 body{
     font-family: sans-serif;
 }
+.container {
+    width:1000px;
+    margin: 0 auto;
+    
+}
 
 ul, li {
     list-style: none;
